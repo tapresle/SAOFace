@@ -1,0 +1,34 @@
+{
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "uuid": "2af972d9-efd0-491d-8c13-f1fd01204521",
+    "resources": {
+        "media": [
+            {
+                "name": "RESOURCE_ID_FONT_ROBOTO_CONDENSED_21",
+                "type": "font",
+                "file": "fonts/Roboto-Condensed.ttf"
+            },
+            {
+                "name": "RESOURCE_ID_FONT_ROBOTO_BOLD_SUBSET_49",
+                "type": "font",
+                "file": "fonts/Roboto-Bold.ttf"
+            },
+            {
+                "name": "RESOURCE_ID_IMAGE_SAO_IMG",
+                "type": "png",
+                "file": "images/sao2.png"
+            }
+        ]
+    },
+    "longName": "SwordArtOnlineFace",
+    "watchapp": {
+        "watchface": true
+    },
+    "companyName": "tapresle@ncsu.edu",
+    "shortName": "SAO"
+}
