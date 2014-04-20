@@ -81,9 +81,9 @@ void handle_init(void) {
   title_text = text_layer_create(GRect(5, 5, 144-10, 168-10));
   text_layer_set_text_color(title_text, GColorWhite);
   text_layer_set_background_color(title_text, GColorClear);
-  text_layer_set_font(title_text, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_RESOURCE_ID_FONT_ROBOTO_CONDENSED_21)));
+  text_layer_set_font(title_text, fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_GESSO_48)));
   layer_add_child(window_layer, text_layer_get_layer(title_text));
-  text_layer_set_text(title_text, "SWORD ART ONLINE");
+  text_layer_set_text(title_text, "SAO");
   text_layer_set_text_alignment(title_text, GTextAlignmentRight);
 
   tick_timer_service_subscribe(MINUTE_UNIT, handle_minute_tick);
